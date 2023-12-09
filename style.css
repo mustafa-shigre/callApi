@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+}
+
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 9px rgba(0,0,0,.1);
+
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Almarai', sans-serif;
+
+}
+
+.post-body {
+    margin-top: 5px;
+}
+/* Add this to your existing styles.css */
+
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.post-title-details {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #eee;
+    text-align: center;
+    letter-spacing: 1px;
+    padding:10px ;
+
+
+}
+
+.post-body-details {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Almarai', sans-serif;
+    padding:10px ;
+
+} 
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-top: 10px;
+}
+/* Add or update styles in your existing styles.css file */
+
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 9px rgba(0,0,0,.1);
+
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #eee;
+    text-align: center; 
+}
+
+.post-body {
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.comments-container {
+    margin-left: 20px;
+
+}
+
+.comment {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 9px rgba(0,0,0,.1);
+}
+
+.comment-name {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: 'Almarai', sans-serif;
+    padding:10px ;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.comment-email {
+    color: #007bff;
+}
+
+.comment-body {
+    margin-top: 5px;
+}
+
+.button-add-post{
+    position: relative;
+    left:40%;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}      
+.button-add-post:hover 
+{
+    background-color: #ccc;
+}
+.form-new-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    left:calc(50% - 210px);
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid 0;
+    transition: 0.5s ease;
+    padding: 0px 30px;
+    border-radius: 50px;
+    background-color: rgba(107, 105, 105, 0.2);
+
+}
+.button{
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.form-new-post input,textarea{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button:hover 
+{
+    color: #fff;
+    background-color: #2b2b2b;
+}
+.new-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 20px;
+}
